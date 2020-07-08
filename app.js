@@ -14,7 +14,12 @@ const app = express();
         process.env.USERDB +
         ':' +
         process.env.PWDDB +
-        '@bootcamp-smurc.mongodb.net/grades?retryWrites=true&w=majority',
+        '@bootcamp.tpzbk.gcp.mongodb.net/agenda?retryWrites=true&w=majority',
+      // 'mongodb+srv://' +
+      //   process.env.USERDB +
+      //   ':' +
+      //   process.env.PWDDB +
+      //   '@bootcamp-smurc.mongodb.net/grades?retryWrites=true&w=majority',
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
